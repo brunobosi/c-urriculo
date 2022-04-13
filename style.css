@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    width: 100%;
+    color: rgb(53, 132, 196);
+    text-align: center;
+    min-height: 100vh;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.countainer{
+   width: 50%;
+   overflow: scroll;
+   height: 90vh;
+   padding: 15px 2%;
+   box-shadow: 0 0 5px rgb(51, 139, 184);
+}
+.coutainer::-webkit-scrollbar{
+    width: 14px;
+    border: 1px solid rgb(51, 139, 184);
+}
+.coutainer::-webkit-scrollbar-thumb{
+    background-color: rgb(51, 139, 184);
+    border-radius: 6px;
+}
+.hrd1{
+    border-top: solid rgb(51, 139, 184);
+    border-bottom: solid rgb(51, 139, 184);
+    height: 5px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hrd1::after{
+    content: "Rafael Barcelos";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background: #fff;
+    display: inline;
+    position: relative;
+}
+.hr_1{
+    border-top: solid rgb(51, 139, 184);
+    border-bottom: solid rgb(51, 139, 184);
+    height: 5px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_1::after{
+    content: "Objetivo";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background-color: #fff;
+    display: inline;
+    position: relative;
+}
+.hr_2{
+    border-top: solid rgb(51, 139, 184);
+    border-bottom: solid rgb(51, 139, 184);
+    height: 5px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_2::after{
+    content: "Resumo";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background-color: #fff;
+    display: inline;
+    position: relative;
+}
+.hr_3{
+    border-top: solid rgb(51, 139, 184);
+    border-bottom: solid rgb(51, 139, 184);
+    height: 5px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_3::after{
+    content: "Formação";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background-color: #fff;
+    display: inline;
+    position: relative;
+}
+.hr_4{
+    border-top: solid rgb(51, 139, 184);
+    border-bottom: solid rgb(51, 139, 184);
+    height: 5px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_4::after{
+    content: "Experiência";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background-color: #fff;
+    display: inline;
+    position: relative;
+}
+.hr_5{
+    border-top: solid rgb(51, 139, 184);
+    border-bottom: solid rgb(51, 139, 184);
+    height: 5px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_5::after{
+    content: "Ferramentas";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background-color: #fff;
+    display: inline;
+    position: relative;
+}
+.hr_6{
+    border-top: solid rgb(51, 139, 184);
+    border-bottom: solid rgb(51, 139, 184);
+    height: 5px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_6::after{
+    content: "Linguagens";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background-color: #fff;
+    display: inline;
+    position: relative;
+}
