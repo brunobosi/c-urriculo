@@ -34,7 +34,7 @@ body{
     text-align: center;
 }
 .hrd1::after{
-    content: "Rafael Barcelos";
+    content: "Bruno Bosi";
     font-size: 1.4em;
     padding: 0 0.3em;
     top: -0.7em;
